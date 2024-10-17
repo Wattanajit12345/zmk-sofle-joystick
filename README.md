@@ -1,10 +1,10 @@
 # zmk-config-sofle
 
 ## Default Keymap
-<img src="keymap-drawer/sofle.svg" >
+<img src="keymap-drawer/sofle.svg" ><br>
 
 ## Keyremap 
-![image](https://github.com/user-attachments/assets/b5276f70-3b83-4d77-8bdd-be400185d6be)
+![image](https://github.com/user-attachments/assets/b5276f70-3b83-4d77-8bdd-be400185d6be)<br>
 [Keymap Editor](https://nickcoutsos.github.io/keymap-editor/) <br>
 [Github, Keymap Editor Setup and Flashing](https://github.com/superxc3/zmk_config_sofle#steps) - using Sofle wireless as reference<br>
 
