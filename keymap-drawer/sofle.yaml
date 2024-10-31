@@ -83,8 +83,8 @@ layers:
   - (
   - )
   - Ctl+ $$mdi:apple-keyboard-shift$$
-  - '{'
-  - '}'
+  - Sft+ {
+  - Sft+ }
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - +
   - <
