@@ -63,7 +63,7 @@
             >;
 
             display-name = "LAYER 1";
-            sensor-bindings = <&inc_dec_kp LG(LEFT) LG(RIGHT)>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         layer_2 {
