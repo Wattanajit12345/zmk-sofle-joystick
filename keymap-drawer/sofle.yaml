@@ -59,7 +59,7 @@ layers:
   - '4'
   - $$mdi:apple-keyboard-shift$$
   - LAYER 1
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:mouse-left-click-outline$$
   - '2'
   - $$mdi:keyboard-space$$
   - '3'
