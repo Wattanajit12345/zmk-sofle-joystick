@@ -55,11 +55,11 @@
 
         layer_1 {
             bindings = <
-&rgb_ug RGB_OFF  &none                 &none                  &none               &kp LG(LEFT_SHIFT)  &kp L                  &mmv MOVE_UP     &none          &none             &none              &none                 &none      &trans
-&trans           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LC(LEFT_SHIFT)  &kp LS(LEFT_BRACE)  &kp LS(RIGHT_BRACE)    &mmv MOVE_DOWN   &kp PLUS       &kp LESS_THAN     &kp GREATER_THAN   &kp NON_US_BACKSLASH  &kp EQUAL  &none
-&trans           &kp EXCL              &kp SEMICOLON          &kp SQT             &kp DQT             &kp COLON              &mmv MOVE_LEFT   &kp LC(GRAVE)  &kp COMMA         &kp MINUS          &kp UNDERSCORE        &kp SLASH  &none
-&trans           &kp AMPERSAND         &kp AT_SIGN            &kp POUND           &kp DOLLAR          &kp PERCENT            &mmv MOVE_RIGHT  &kp ASTERISK   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none                 &kp N0     &trans
-&kp C_MUTE       &trans                &trans                 &trans              &trans              &trans                 &mkp LCLK        &trans         &trans            &trans             &trans                &trans
+&rgb_ug RGB_OFF  &none                 &none                  &none               &kp LG(LEFT_SHIFT)  &kp L          &mmv MOVE_UP     &none          &none             &none              &none                 &none      &trans
+&trans           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LC(LEFT_SHIFT)  &kp LC(LS(TAB))     &kp LC(TAB)    &mmv MOVE_DOWN   &kp PLUS       &kp LESS_THAN     &kp GREATER_THAN   &kp NON_US_BACKSLASH  &kp EQUAL  &none
+&trans           &kp EXCL              &kp SEMICOLON          &kp SQT             &kp DQT             &kp COLON      &mmv MOVE_LEFT   &kp LC(GRAVE)  &kp COMMA         &kp MINUS          &kp UNDERSCORE        &kp SLASH  &none
+&trans           &kp AMPERSAND         &kp AT_SIGN            &kp POUND           &kp DOLLAR          &kp PERCENT    &mmv MOVE_RIGHT  &kp ASTERISK   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none                 &kp N0     &trans
+&kp C_MUTE       &trans                &trans                 &trans              &trans              &trans         &mkp LCLK        &trans         &trans            &trans             &trans                &trans
             >;
 
             display-name = "LAYER 1";
