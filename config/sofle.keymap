@@ -68,11 +68,11 @@
 
         layer_2 {
             bindings = <
-&none   &none       &none   &none        &none   &none     &mmv MOVE_UP     &none   &none   &kp F8      &kp F9     &kp F10      &trans
-&trans  &none       &none   &trans       &trans  &trans    &mmv MOVE_DOWN   &trans  &trans  &none       &kp F12    &kp UNDER    &kp PLUS
-&trans  &none       &none   &trans       &trans  &trans    &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
-&trans  &sys_reset  &trans  &bootloader  &trans  &trans    &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
-&trans  &trans      &trans  &trans       &trans  &trans    &mkp LCLK        &trans  &trans  &trans      &trans     &trans
+&none   &none       &none   &none        &none   &none     &mmv MOVE_UP     &none   &none    &kp F8      &kp F9     &kp F10      &trans
+&trans  &none       &none   &trans       &trans  &trans    &mmv MOVE_DOWN   &trans  &trans   &none       &kp F12    &kp UNDER    &kp PLUS
+&trans  &none       &none   &trans       &trans  &trans    &mmv MOVE_LEFT   &trans  &kp SQT  &trans      &trans     &kp LBRC     &kp RBRC
+&trans  &sys_reset  &trans  &bootloader  &trans  &trans    &mmv MOVE_RIGHT  &trans  &trans   &sys_reset  &soft_off  &bootloader  &trans
+&trans  &trans      &trans  &trans       &trans  &trans    &mkp LCLK        &trans  &trans   &trans      &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -80,10 +80,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &trans    &trans        &trans     &trans  &trans
-&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &trans    &kp UP_ARROW  &trans     &trans  &trans
-&trans  &kp LC(W)  &kp LC(T)  &kp LC(R)  &trans  &trans    &trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
-&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &trans    &trans        &trans     &trans  &trans
+&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &trans    &trans        &trans     &trans         &trans
+&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &trans    &kp UP_ARROW  &trans     &none          &trans
+&trans  &kp LC(W)  &kp LC(T)  &kp LC(R)  &trans  &trans    &trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp ENTER      &trans
+&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &trans    &trans        &trans     &kp LS(ENTER)  &trans
 &trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &trans    &trans        &trans     &trans
             >;
 
@@ -93,8 +93,8 @@
         layer_4 {
             bindings = <
 &trans  &trans         &trans         &trans        &trans           &trans          &trans  &trans     &trans  &trans   &trans  &trans    &trans
-&trans  &kp BACKSPACE  &kp LC(C)      &kp LC(V)     &kp LC(X)        &kp LEFT_ALT    &trans  &kp PLUS   &kp N7  &kp N8   &kp N9  &kp BSPC  &trans
-&trans  &kp LC(A)      &kp LC(MINUS)  &kp LC(PLUS)  &kp RIGHT_SHIFT  &kp LC(Z)       &trans  &kp MINUS  &kp N4  &kp N5   &kp N6  &kp FSLH  &trans
+&trans  &kp BACKSPACE  &kp LG(C)      &kp LG(V)     &kp LG(X)        &kp LEFT_ALT    &trans  &kp PLUS   &kp N7  &kp N8   &kp N9  &kp BSPC  &trans
+&trans  &kp LG(A)      &kp LC(MINUS)  &kp LC(PLUS)  &kp RIGHT_SHIFT  &kp LG(Z)       &trans  &kp MINUS  &kp N4  &kp N5   &kp N6  &kp FSLH  &trans
 &trans  &trans         &trans         &trans        &trans           &trans          &trans  &kp STAR   &kp N1  &kp N2   &kp N3  &kp N0    &kp COMMA
 &trans  &trans         &trans         &trans        &trans           &trans          &trans  &trans     &trans  &kp DOT  &trans  &trans
             >;
