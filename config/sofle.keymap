@@ -94,7 +94,7 @@
             bindings = <
 &trans  &trans         &trans         &trans        &trans           &trans          &trans  &trans     &trans  &trans   &trans  &trans    &trans
 &trans  &kp BACKSPACE  &kp LG(C)      &kp LG(V)     &kp LG(X)        &kp LEFT_ALT    &trans  &kp PLUS   &kp N7  &kp N8   &kp N9  &kp BSPC  &trans
-&trans  &kp LG(A)      &kp LC(MINUS)  &kp LC(PLUS)  &kp RIGHT_SHIFT  &kp LG(Z)       &trans  &kp MINUS  &kp N4  &kp N5   &kp N6  &kp FSLH  &trans
+&trans  &kp LG(A)      &kp LG(MINUS)  &kp LG(PLUS)  &kp RIGHT_SHIFT  &kp LG(Z)       &trans  &kp MINUS  &kp N4  &kp N5   &kp N6  &kp FSLH  &trans
 &trans  &trans         &trans         &trans        &trans           &trans          &trans  &kp STAR   &kp N1  &kp N2   &kp N3  &kp N0    &kp COMMA
 &trans  &trans         &trans         &trans        &trans           &trans          &trans  &trans     &trans  &kp DOT  &trans  &trans
             >;
