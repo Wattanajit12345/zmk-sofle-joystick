@@ -81,7 +81,7 @@
         layer_3 {
             bindings = <
 &trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &trans    &trans        &trans     &trans         &trans
-&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &trans    &kp UP_ARROW  &trans     &none          &trans
+&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &kp F5    &kp UP_ARROW  &trans     &none          &trans
 &trans  &kp LC(W)  &kp LC(T)  &kp LC(R)  &trans  &trans    &trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp ENTER      &trans
 &trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &trans    &trans        &trans     &kp LS(ENTER)  &trans
 &trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &trans    &trans        &trans     &trans
