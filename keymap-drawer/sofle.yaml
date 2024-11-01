@@ -165,7 +165,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '{'
@@ -220,7 +220,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+ W
@@ -233,6 +233,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -245,8 +246,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'Sft+ $$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -276,9 +276,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - Ctl+ C
-  - Ctl+ V
-  - Ctl+ X
+  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: X, h: '$$mdi:apple-keyboard-command$$'}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
   - +
@@ -288,11 +288,11 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+ A
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: Ctl+ -, s: Ctl+ _}
   - Ctl+ +
   - $$mdi:apple-keyboard-shift$$
-  - Ctl+ Z
+  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - {t: '4', s: $}
