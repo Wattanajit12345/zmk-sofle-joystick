@@ -80,11 +80,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &trans    &trans        &trans     &trans         &trans
-&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &kp F5    &kp UP_ARROW  &trans     &none          &trans
-&trans  &kp LC(W)  &kp LC(T)  &kp LC(R)  &trans  &trans    &trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp ENTER      &trans
-&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &trans    &trans        &trans     &kp LS(ENTER)  &trans
-&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &trans    &trans        &trans     &trans
+&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans   &trans    &trans        &trans     &trans         &trans
+&trans  &trans     &trans     &trans     &trans  &trans    &trans  &kp TAB  &kp F5    &kp UP_ARROW  &trans     &none          &trans
+&trans  &kp LC(W)  &kp LC(T)  &kp LC(R)  &trans  &trans    &trans  &trans   &kp LEFT  &kp DOWN      &kp RIGHT  &kp ENTER      &trans
+&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans   &trans    &trans        &trans     &kp LS(ENTER)  &trans
+&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans   &trans    &trans        &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
