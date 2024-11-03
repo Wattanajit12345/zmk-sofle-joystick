@@ -7,7 +7,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&msc SCROLL_UP'
+  - '&msc SCROLL_HOR 20'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -20,7 +20,7 @@ layers:
   - E
   - R
   - T
-  - '&msc SCROLL_DOWN'
+  - '&msc SCROLL_VERT 20'
   - Y
   - U
   - I
@@ -33,7 +33,7 @@ layers:
   - D
   - F
   - G
-  - '&msc SCROLL_LEFT'
+  - '&msc SCROLL_HOR 20'
   - H
   - J
   - K
@@ -46,7 +46,7 @@ layers:
   - C
   - V
   - B
-  - '&msc SCROLL_RIGHT'
+  - '&msc SCROLL_HOR 20'
   - N
   - M
   - {t: ',', s: <}
