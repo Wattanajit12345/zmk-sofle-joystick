@@ -7,7 +7,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mmv MOVE_HOR 600'
+  - '&mmv MOVE_VERT 600'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -20,7 +20,7 @@ layers:
   - E
   - R
   - T
-  - '&mmv MOVE_HOR -600'
+  - '&mmv MOVE_VERT 600'
   - Y
   - U
   - I
