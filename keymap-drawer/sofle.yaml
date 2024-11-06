@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - P
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-command$$
   - Z
   - X
