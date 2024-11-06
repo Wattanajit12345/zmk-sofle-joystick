@@ -27,7 +27,7 @@ layers:
   - O
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - A
   - S
   - D
@@ -72,7 +72,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - AC SCROLL UP
+  - '&msc SCROLL_UP'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -82,11 +82,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - (
   - )
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '*'
   - '{'
   - '}'
-  - AC SCROLL DOWN
-  - +
+  - '&msc SCROLL_DOWN'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - <
   - '>'
   - \
@@ -95,7 +95,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - {t: ;, s: ':'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - +
   - '"'
   - ':'
   - Gui+AGr+ $$mdi:arrow-left-bold$$
@@ -112,7 +112,7 @@ layers:
   - $
   - '%'
   - Gui+AGr+ $$mdi:arrow-right-bold$$
-  - '*'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
