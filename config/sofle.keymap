@@ -63,7 +63,7 @@
             >;
 
             display-name = "LAYER 1";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         layer_2 {
