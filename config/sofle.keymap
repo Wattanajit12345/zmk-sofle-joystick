@@ -55,8 +55,8 @@
 
         layer_1 {
             bindings = <
-&rgb_ug RGB_OFF  &none                 &none                  &none         &none           &none              &none              &none          &none             &none              &none                 &none      &trans
-&trans           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK  &kp LEFT_BRACE  &kp RIGHT_BRACE    &none              &none          &kp LESS_THAN     &kp GREATER_THAN   &kp NON_US_BACKSLASH  &kp EQUAL  &none
+&rgb_ug RGB_OFF  &none                 &none                  &none         &none           &none              &kp PAGE_UP        &none          &none             &none              &none                 &none      &trans
+&trans           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp PAGE_DOWN      &none          &kp LESS_THAN     &kp GREATER_THAN   &kp NON_US_BACKSLASH  &kp EQUAL  &none
 &trans           &kp EXCL              &kp SEMICOLON          &kp PLUS      &kp DQT         &kp COLON          &kp LG(RA(LEFT))   &kp LC(GRAVE)  &kp COMMA         &kp MINUS          &kp UNDERSCORE        &kp SLASH  &none
 &trans           &kp AMPERSAND         &kp AT_SIGN            &kp POUND     &kp DOLLAR      &kp PERCENT        &kp LG(RA(RIGHT))  &none          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none                 &kp N0     &trans
 &kp C_MUTE       &trans                &trans                 &trans        &trans          &trans             &mkp LCLK          &trans         &trans            &trans             &trans                &trans
