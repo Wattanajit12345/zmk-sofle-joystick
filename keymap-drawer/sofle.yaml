@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - P
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-command$$
   - Z
   - X
