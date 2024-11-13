@@ -87,23 +87,23 @@ layers:
   - '}'
   - PgDn
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - <
-  - '>'
-  - {t: \, s: '|'}
-  - {t: '=', s: +}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '-', s: _}
-  - {t: '''', s: '"'}
-  - {t: ;, s: ':'}
-  - ':'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - Gui+AGr+ $$mdi:arrow-left-bold$$
-  - {t: Ctl+ `, s: Ctl+ ~}
-  - {t: ',', s: <}
+  - {t: ;, s: ':'}
+  - ':'
   - {t: '-', s: _}
-  - _
-  - {t: /, s: '?'}
+  - {t: '''', s: '"'}
+  - Gui+AGr+ $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '*'
+  - +
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - \
   - {t: /, s: '?'}
@@ -113,14 +113,14 @@ layers:
   - {t: '=', s: +}
   - Gui+AGr+ $$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '*'
-  - +
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '-', s: _}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
