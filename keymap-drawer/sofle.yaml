@@ -92,12 +92,12 @@ layers:
   - {t: '9', s: (}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: /, s: '?'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: ;, s: ':'}
   - ':'
-  - {t: '-', s: _}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Gui+AGr+ $$mdi:arrow-left-bold$$
   - {t: '-', s: _}
   - {t: '4', s: $}
@@ -106,7 +106,7 @@ layers:
   - {t: ., s: '>'}
   - {t: ',', s: <}
   - \
-  - {t: /, s: '?'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - <
   - '>'
   - _
