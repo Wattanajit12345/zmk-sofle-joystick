@@ -97,7 +97,7 @@ layers:
   - {t: ;, s: ':'}
   - ':'
   - {t: '-', s: _}
-  - {t: '''', s: '"'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Gui+AGr+ $$mdi:arrow-left-bold$$
   - {t: '-', s: _}
   - {t: '4', s: $}
