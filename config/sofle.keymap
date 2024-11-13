@@ -55,11 +55,11 @@
 
         layer_1 {
             bindings = <
-&rgb_ug RGB_OFF       &none                 &none                  &none              &none             &none                &kp PAGE_UP        &none          &none          &none             &none           &none      &trans
-&kp GRAVE             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp LEFT_BRACE    &kp RIGHT_BRACE      &kp PAGE_DOWN      &none          &kp LESS_THAN  &kp GREATER_THAN  &kp BACKSLASH   &kp EQUAL  &none
-&kp MINUS             &kp SQT               &kp SEMICOLON          &kp COLON          &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp LG(RA(LEFT))   &kp LC(GRAVE)  &kp COMMA      &kp MINUS         &kp UNDERSCORE  &kp SLASH  &none
-&kp NON_US_BACKSLASH  &kp SLASH             &kp LESS_THAN          &kp GREATER_THAN   &kp UNDERSCORE    &kp EQUAL            &kp LG(RA(RIGHT))  &none          &kp ASTERISK   &kp PLUS          &none           &kp N0     &trans
-&kp C_MUTE            &trans                &kp MINUS              &trans             &trans            &trans               &mkp LCLK          &trans         &trans         &trans            &trans          &trans
+&rgb_ug RGB_OFF       &none                 &none                  &none              &none           &none              &kp PAGE_UP        &none   &none         &none     &none   &none   &trans
+&kp GRAVE             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp PAGE_DOWN      &none   &none         &none     &none   &none   &none
+&kp LBKT              &kp RBKT              &kp SEMICOLON          &kp COLON          &kp MINUS       &kp SQT            &kp LG(RA(LEFT))   &none   &kp ASTERISK  &kp PLUS  &none   &none   &none
+&kp NON_US_BACKSLASH  &kp SLASH             &kp LESS_THAN          &kp GREATER_THAN   &kp UNDERSCORE  &kp EQUAL          &kp LG(RA(RIGHT))  &none   &none         &none     &none   &kp N0  &trans
+&kp C_MUTE            &trans                &none                  &trans             &trans          &trans             &mkp LCLK          &trans  &trans        &trans    &trans  &trans
             >;
 
             display-name = "LAYER 1";
