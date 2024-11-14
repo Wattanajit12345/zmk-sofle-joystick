@@ -59,7 +59,7 @@ layers:
   - '4'
   - $$mdi:apple-keyboard-shift$$
   - LAYER 1
-  - $$mdi:mouse-left-click-outline$$
+  - PLAY PAUSE
   - '2'
   - $$mdi:keyboard-space$$
   - '3'
