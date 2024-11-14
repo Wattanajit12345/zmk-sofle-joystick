@@ -57,7 +57,7 @@
             bindings = <
 &rgb_ug RGB_OFF  &none                 &none                  &none              &none           &none              &kp PAGE_UP        &none         &none      &none   &none   &none     &trans
 &kp GRAVE        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp PAGE_DOWN      &kp PLUS      &kp N7     &kp N8  &kp N9  &kp BSPC  &none
-&none            &kp SLASH             &kp LBKT               &kp RBKT           &kp SEMI        &kp COLON          &kp LG(RA(LEFT))   &kp MINUS     &kp N4     &kp N5  &kp N6  &kp DOT   &kp COMMA
+&kp ENTER        &kp SLASH             &kp LBKT               &kp RBKT           &kp SEMI        &kp COLON          &kp LG(RA(LEFT))   &kp MINUS     &kp N4     &kp N5  &kp N6  &kp DOT   &kp COMMA
 &kp BSLH         &none                 &kp LESS_THAN          &kp GREATER_THAN   &kp UNDERSCORE  &kp EQUAL          &kp LG(RA(RIGHT))  &kp ASTERISK  &kp N1     &kp N2  &kp N3  &kp N0    &trans
 &kp C_MUTE       &trans                &none                  &trans             &trans          &trans             &mkp LCLK          &trans        &kp SPACE  &trans  &trans  &trans
             >;
