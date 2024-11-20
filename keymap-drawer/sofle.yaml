@@ -27,7 +27,7 @@ layers:
   - O
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - KP ENTER
   - A
   - S
   - D
